@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CDA" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Formation Contact</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header-title">Nous contacter</h1>
+      <nav class="header-nav">
+        <a href="index.html" title="Accueil">Accueil</a>
+        <a href="contact.html" title="Nous Contacter">Contact</a>
+      </nav>
+    </header>
+	
+    <section class="main">
+      <h2>Nous trouver</h2>
+      <p>
+        123 Rue du test
+        <br />
+        59500 Douai
+        <br />
+        France
+      </p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6236.226281985932!2d3.083370199361166!3d50.36921186373029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2c9410a472165%3A0x9132e05deb3a9700!2sGare%20de%20Douai!5e1!3m2!1sfr!2sfr!4v1679160051824!5m2!1sfr!2sfr"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <h2>Envoyer un mail</h2>
+      <form action="contact.html">
+        <div>
+          <label for="email">Votre Email<sup>*</sup> </label>
+          <input type="email" name="email" required id="email" />
+        </div>
+        <div>
+          <label for="firstname">Votre prénom<sup>*</sup> </label>
+          <input type="text" name="firstname" required id="firstname" />
+        </div>
+        <div>
+          <label for="lastname">Votre nom<sup>*</sup> </label>
+          <input type="text" name="lastname" required id="lastname" />
+        </div>
+        <div>
+          <label for="message"
+            >Votre message
+            <sup>*</sup>
+          </label>
+          <textarea
+            name="message"
+            required
+            id="message"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+        <input type="checkbox" name="checkbox" id="checkbox" />J'accepte les
+        conditions
+        <button type="submit">Envoyer le mail</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <p>© 2023 - Le footer</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  line-height: 1.5;
+  letter-spacing: 0.15px;
+  font-family: "Helvetica", "sans-serif";
+}
+
+.header {
+  background: grey;
+  padding: 21px;
+  height: auto;
+  color: white;
+  text-align: center;
+}
+.header-title {
+  margin-top: 0;
+}
+.header-nav {
+  margin: 21px 0;
+  display: inline;
+}
+.header-nav a {
+  padding: 0 10px;
+  color: inherit;
+  text-decoration: none;
+}
+.header-nav a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.wrapper {
+  min-height: 85vh;
+  background-color: lightgrey;
+}
+.main {
+  background-color: lightgrey;
+  padding: 21px;
+}
+.main p {
+  text-align: justify;
+}
+
+.profil > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+}
+
+.profil > ul > li {
+  list-style: none;
+  border: 1px solid grey;
+  border-top-color: blue;
+  border-bottom-color: blueviolet;
+  border-radius: 0.5rem;
+}
+
+.nom {
+  text-align: center;
+  align-items: center;
+}
+
+.content > article {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-gap: 1rem;
+  border: 1px solid grey;
+  border-top-color: blue;
+  border-bottom-color: blueviolet;
+  border-radius: 0.5rem;
+}
+
+.parcours > h2 {
+  text-align: center;
+}
+
+.article.ff {
+
+  list-style: none;
+}
+.ff > div {
+  margin-bottom: 1.5vh;
+  text-align: center;
+}
+
+.p-fort {
+  color: green;
+}
+
+.p-faible {
+  color: red;
+}
+.ff > div > ul {
+  opacity: 33%;
+}
+
+.ff > div > ul:hover {
+  opacity: 100%;
+}
+
+.attente > h2 {
+  text-align: center;
+}
+
+.button {
+  align-items: center;
+}
+
+.footer {
+  background: gray;
+  text-align: center;
+}
